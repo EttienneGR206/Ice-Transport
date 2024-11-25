@@ -1,0 +1,154 @@
+<html>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #5ceeee;
+    
+            background-image: url("Transport2.JPG");
+            background-size: cover;
+          }
+          
+          /* Navigation bar styling */
+          nav {
+            background-color: #333;
+            padding: 10px 20px;
+          }
+          
+          .navbar-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+          }
+          
+          .logo {
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+          }
+          
+          /* Nav menu */
+          ul {
+            list-style-type: none;
+            display: flex;
+          }
+          
+          li {
+            margin: 0 15px;
+          }
+          
+          li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+          }
+          
+          li a:hover {
+            color: #6fd6ff;
+          }
+          
+          /* Hamburger Menu for mobile */
+          .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            height: 25px;
+            justify-content: space-between;
+            width: 30px;
+          }
+      
+          .hamburger div {
+            background-color: white;
+            height: 4px;
+            width: 100%;
+          }
+          
+          /* Mobile styling */
+          @media (max-width: 768px) {
+            .navbar-container {
+              flex-direction: column;
+              align-items: flex-start;
+            }
+            
+            ul {
+              display: none;
+              width: 100%;
+              flex-direction: column;
+              margin-top: 10px;
+            }
+            
+            li {
+              width: 100%;
+              text-align: center;
+              margin: 10px 0;
+            }
+            
+            .hamburger {
+              display: flex;
+            }
+      
+            .hamburger.active + ul {
+              display: flex;
+            } 
+        }
+        .Info{
+            text-align: justify;
+        width: 50%; /* Optional, just to show effect with a container */
+        margin: 0 auto; /* Centers the container */
+        font-size: 30px;
+        line-height: 1.6;
+            background-color: rgb(2, 15, 19,0.1);
+            color: #fff;
+            
+        }
+        .Contact{
+            text-align: justify;
+        width: 50%; /* Optional, just to show effect with a container */
+        margin: 0 auto; /* Centers the container */
+        font-size: 30px;
+        line-height: 1.6;
+            background-color: rgb(2, 15, 19,0.1);
+            color: #fff;
+        }
+    </style>
+    <body>
+    <nav>
+      <div class="navbar-container">
+        <a href="#" class="logo">Transport Solutions</a><img src ="LogoTransport.PNG">
+        <div class="hamburger" id="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul id="navbar-menu">
+          <li><a href="file:///D:/Codes/Home.html#">Home</a></li>
+          <li><a href="file:///D:/Codes/About.html">About</a></li>
+          <li><a href="file:///D:/Codes/Transport.html">Transport</a></li>
+        </ul>
+      </div>
+    </nav>
+    <br/>
+    <br/>
+    
+    <div class = "Info">
+        <h1><center><b><u>What are we ?</u></b></center></h1>
+        <center>Looking for reliable and efficient transportation services? Look no further! At Quin Del, we specialize in providing fast, safe, and cost-effective transport solutions tailored to your needs.</center>
+
+    </div>
+    <br/>
+    <div class ="Contact">
+        <h1><center><u><b>Contact details</b></u></center></h1>
+        <center>E-mail: Quintin7lubbe@gmail.com- Quintin</center>
+        <center>Cell or WhatsApp: 0798274515 - Quintin</center>
+    </div>
+    
+
+
+
+
+</html>

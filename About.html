@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>
+            Quinchi's Ice Cubes
+        </title>
+    </head>
+    <style>
+        /* Reset some basic styles */
+        body, h1, p, ul {
+          margin: 0;
+          padding: 0;
+        }
+        
+        /* Styling the body and container */
+        body {
+          font-family: 'Arial', sans-serif;
+          background-color: #000000;
+          
+          background-image: url("Ice2.WEBP");
+          background-size: cover;
+          
+          
+        }
+        
+        /* Navigation bar styling */
+        nav {
+          background-color: #333;
+          padding: 10px 20px;
+        }
+        
+        .navbar-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          max-width: 1200px;
+          margin: 0 auto;
+          width: 100%;
+        }
+        
+        .logo {
+          color: #fff;
+          font-size: 24px;
+          font-weight: bold;
+          text-transform: uppercase;
+          text-decoration: none;
+        }
+        
+        /* Nav menu */
+        ul {
+          list-style-type: none;
+          display: flex;
+        }
+        
+        li {
+          margin: 0 15px;
+        }
+        
+        li a {
+          color: white;
+          text-decoration: none;
+          font-size: 16px;
+          transition: color 0.3s ease;
+        }
+        
+        li a:hover {
+          color: #6fd6ff;
+        }
+        
+        /* Hamburger Menu for mobile */
+        .hamburger {
+          display: none;
+          flex-direction: column;
+          cursor: pointer;
+          height: 25px;
+          justify-content: space-between;
+          width: 30px;
+        }
+    
+        .hamburger div {
+          background-color: white;
+          height: 4px;
+          width: 100%;
+        }
+        
+        /* Mobile styling */
+        @media (max-width: 768px) {
+          .navbar-container {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          
+          ul {
+            display: none;
+            width: 100%;
+            flex-direction: column;
+            margin-top: 10px;
+          }
+          
+          li {
+            width: 100%;
+            text-align: center;
+            margin: 10px 0;
+          }
+          
+          .hamburger {
+            display: flex;
+          }
+    
+          .hamburger.active + ul {
+            display: flex;
+          }
+        }
+        .Description {
+        text-align: justify;
+        width: 50%; /* Optional, just to show effect with a container */
+        margin: 0 auto; /* Centers the container */
+        font-size: 28px;
+        line-height: 1.6;
+        background-color: rgba(255, 255, 255, 0.2);
+            color: black;
+            font-weight: bold;
+        }
+        .logo{
+         src: left;
+        }
+        .Instruksies{
+        text-align: justify;
+        width: 50%; /* Optional, just to show effect with a container */
+        margin: 0 auto; /* Centers the container */
+        font-size: 28px;
+        line-height: 1.6;
+        background-color: rgb(253, 253, 253,0.2);
+        color: rgb(17, 17, 17);
+        font-weight: bold;
+        }
+      </style>
+    <body>
+      <nav>
+        <div class="navbar-container">
+          <a href="#" class="logo">Quinchi's Ice-Cubes</a><div class ="Logo"><align img = "left"><img src="Logo.jpg" width="120" height="110"></div></align>
+          <div class="hamburger" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <ul id="navbar-menu">
+            <li><a href="file:///D:/Codes/Home.html">Home</a></li>
+            <li><a href="file:///D:/Codes/About.html">About</a></li>
+            <li><a href="file:///D:/Codes/Transport.html">Transport</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+      <br/>
+      <br/>
+    
+      <div class = "Description">
+        <h1><center><u> Ice-Cubes</u></center></h1>
+      <center><b>Freshly made ice, straight from our high-quality ice maker, at an unbeatable price! Perfect for those hot summer days and long weekends. What's better than an ice-cold drink during a big sports game? Quinchi's Ice offers top-notch quality at the lowest price, ensuring your drinks stay perfectly chilled. Choose Quinchi's Ice for the best value - refreshing, affordable, and guaranteed to keep your cool all season long!</b></center>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      
+      <div class = "Instruksies">
+        <h1><center><u>HOW TO BUY</u></center></h1>
+        <p>We process orders through calls, WhatsApp messages, and SMS. Please send us your order via Gmail, WhatsApp, or SMS by entering your contact information on the home screen.</p>
+      </div>
+    </body>
+</html>
